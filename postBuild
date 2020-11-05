@@ -2,3 +2,8 @@
 # this script is run at the end of building an image for Binder
 # This command ensures the en_core_web_sm model is available
 python -m spacy download en_core_web_sm
+# These commands ensure the required nltk data files are available
+python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
+python -c "import nltk; nltk.download('averaged_perceptron_tagger')"
+python -c "import nltk; nltk.download('vader_lexicon'); nltk.download('wordnet')"
+python -c "import nltk; nltk.download('tagsets')"
