@@ -1,4 +1,4 @@
-# Intermediate Python Material
+# Intermediate Python Course Material
 Material for an intermediate course for the Centre for Data, Culture & Society about select Python libraries
 
 Taught by Lucy Havens in semester 1 of academic year 2020-21
